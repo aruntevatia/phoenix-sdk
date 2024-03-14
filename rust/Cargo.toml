@@ -34,7 +34,8 @@ rust_decimal_macros = "1.26"
 itertools = "0.10.5"
 bytemuck = "1"
 serde = "^1.0.63"
-phoenix-seat-manager = "0.1.0"
+#phoenix-seat-manager = "0.1.0"
+phoenix-seat-manager = { git = "https://github.com/aruntevatia/phoenix-seat-manager-v1.git", branch = "master", features=["no-entrypoint"] }
 yellowstone-grpc-proto = "=1.6.0+solana.1.16.1"
 yellowstone-grpc-client = "=1.6.0+solana.1.16.1"
 
